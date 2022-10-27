@@ -6,7 +6,9 @@
 
 // const TOTAL_CAROUSEL_COUNT = TimeLineData.length;
 
-// const Timeline = () => {
+const Timeline = () => {
+    console.log(1);
+    
 //   const [activeItem, setActiveItem] = useState(0);
 //   const carouselRef = useRef();
 
@@ -42,7 +44,11 @@
 //     window.addEventListener('resize', handleResize);
 //   }, []);
 
-//   return (
+  return (
+
+    <div>
+        hello
+    </div>
 //     <Section id="about">
 //       <SectionTitle>About Me</SectionTitle>
 //       <SectionText>
@@ -112,7 +118,7 @@
 //       </CarouselButtons>
 //       <SectionDivider />
 //     </Section>
-//   );
-// };
+  );
+};
 
-// export default Timeline;
+export default Timeline;
