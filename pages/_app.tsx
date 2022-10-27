@@ -9,6 +9,7 @@ function MyApp({ Component, pageProps }: AppProps) {
       <Theme>
         <Head>
           <title> Anurag Kochar </title>
+          <link rel="shortcut icon" href="/images/starfavicon.ico"/>
         </Head>
         <Component {...pageProps} />
       </Theme>
