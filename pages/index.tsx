@@ -1,3 +1,5 @@
+/* eslint react/no-unescaped-entities */
+
 import Acomplishments from '../components/Accomplishments/Accomplishments';
 import BgAnimation from '../components/BackgroundAnimation/BackgroundAnimation';
 import Hero from '../components/Hero/Hero';
