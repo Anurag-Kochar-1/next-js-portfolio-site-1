@@ -1,8 +1,9 @@
 import React from 'react';
+import Link from "next/link"
 
 import { Section, SectionText, SectionTitle } from '../../styles/GlobalComponents';
 import Button from '../../styles/GlobalComponents/Button';
-import { LeftSection } from './HeroStyles';
+import { LeftSection , SubtitleGradientBlueToPink } from './HeroStyles';
 
 const Hero:React.FC = () => (
   <Section row nopadding>
@@ -12,10 +13,10 @@ const Hero:React.FC = () => (
       </SectionTitle>
 
       <SectionText>
-        The 10x Full Stack Blockchain Developer who loves to build things
+        10x Frontend Developer on Road to become <span> Full Stack web 3 Developer </span> 
       </SectionText>
 
-      <Button onClick={() => window.location = `https://www.youtube.com`} >  Learn more </Button>
+      <Button> <a href='#footer'> Contact me </a> </Button>
     </LeftSection>
   </Section>
 );

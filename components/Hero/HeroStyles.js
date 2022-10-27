@@ -17,3 +17,12 @@ export const LeftSection = styled.div`
     margin: 0 auto;
   }
 `;
+
+
+export const SubtitleGradientBlueToPink = styled.span`
+  background: #8300CF;
+  background: linear-gradient(to right, #8300CF 0%, #CF11B6 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 600 ;
+`

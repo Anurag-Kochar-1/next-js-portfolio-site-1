@@ -2,10 +2,9 @@ import { Section, SectionDivider, SectionTitle } from '../../styles/GlobalCompon
 import { Box, Boxes, BoxNum, BoxText } from './AccomplishmentsStyles';
 
 const data = [
-    { number: 20, text: 'Unique Valuable Projects' },
-    { number: 1000, text: 'Twitter Follower', },
-    { number: 2, text: 'Hackathons Won', },
-    { number: 5000, text: 'Github Stars', }
+    { number: 3, text: 'Unique Valuable Projects' },
+    { number: 300, text: 'Youtube Subscriber', },
+    { number: 1, text: 'Hackathon attended', },
 ];
 
 const Accomplishments: React.FC = () => {

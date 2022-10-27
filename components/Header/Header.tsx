@@ -11,7 +11,7 @@ const Header: React.FC = () => {
             <Div1>
                 <Link legacyBehavior href="/">
                     <a style={{ display: 'flex', alignItems: 'center', color: "white" }}>
-                        <DiCssdeck size="3rem" /> <Span >Portfolio </Span>
+                        <DiCssdeck size="3rem" /> <Span> Anurag Kochar </Span>
                     </a>
                 </Link>
             </Div1>

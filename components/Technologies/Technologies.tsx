@@ -10,7 +10,7 @@ const Technologies:React.FC = () =>  (
     <br />
     <SectionTitle> Technologies </SectionTitle>
     <SectionText>
-      I've worked with a range of technologies in the web development world. From Frontend to Backend to blockchain
+      I've worked with a range of frontend technologies and currently learning backend skills like Node js
     </SectionText>
 
     <List>
@@ -22,30 +22,6 @@ const Technologies:React.FC = () =>  (
           <ListParagraph> 
             Experience with <br />
             React.js and Next.js
-          </ListParagraph>
-        </ListContainer>
-      </ListItem>
-
-      <ListItem> 
-        <DiFirebase size='4rem' /> 
-        <br /> 
-        <ListContainer>
-          <ListTitle> Backend-End </ListTitle>
-          <ListParagraph> 
-            Experience with <br />
-            Node and Databases
-          </ListParagraph>
-        </ListContainer>
-      </ListItem>
-
-      <ListItem> 
-        <SiHiveBlockchain size='3rem' />  
-        <br />
-        <ListContainer>
-          <ListTitle> Blockchain </ListTitle>
-          <ListParagraph> 
-            Experience with <br />
-            Solidity and tools
           </ListParagraph>
         </ListContainer>
       </ListItem>
