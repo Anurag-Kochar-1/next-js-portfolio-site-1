@@ -5,7 +5,7 @@ export const projects = [
         image: '/images/thumbnail-litpire.png',
         tags: ['React', 'Tailwind'],
       source: 'https://github.com/Anurag-Kochar-1?tab=repositories',
-      visit: 'https://flimpire-clone-1-v-5.netlify.app/',
+      visit: 'https://flimpire-clone-1-v-6.netlify.app/',
       id: 0,
     },
     {

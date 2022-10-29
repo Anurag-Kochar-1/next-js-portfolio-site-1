@@ -9,17 +9,24 @@ import Technologies from '../components/Technologies/Technologies';
 import { Layout } from '../layout/Layout';
 import { Section } from '../styles/GlobalComponents';
 
+import ParticlesBG from "../components/ParticlesBG/ParticlesBG"
+
 const Home:React.FC = () => {
   return (
     <Layout>
+
+      <ParticlesBG />
       <Section grid>
         <Hero />
-        <BgAnimation />
+
+        {/* <BgAnimation /> */}
+
+
       </Section>
       <Projects />
       <Technologies />
       {/* <Timeline /> */}
-      <Acomplishments />
+      {/* <Acomplishments /> */}
     </Layout>
   );
 };

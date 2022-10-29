@@ -13,7 +13,7 @@ const Hero:React.FC = () => (
       </SectionTitle>
 
       <SectionText>
-        10x Frontend Developer on Road to become <span> Full Stack web 3 Developer </span> 
+        A Frontend Developer on a path to become a <span> Full Stack web 3 Developer </span> 
       </SectionText>
 
       <Button> <a href='#footer'> Contact me </a> </Button>
