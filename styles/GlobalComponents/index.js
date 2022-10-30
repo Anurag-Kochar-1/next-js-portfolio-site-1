@@ -47,8 +47,8 @@ export const SectionTitle = styled.h2`
   @media ${props => props.theme.breakpoints.sm}{
     font-size: 32px;
     line-height: 40px;
-    font-size: ${(props) => props.main ? '28px' : '32px'};
-    line-height: ${(props) => props.main ? '32px' : '40px'};
+    font-size: ${(props) => props.main ? '40px' : '32px'};
+    line-height: ${(props) => props.main ? '42px' : '40px'};
     margin-bottom: 8px;
     padding: ${(props) => props.main ? '16px 0 8px' : '0'};
     max-width: 100%;
@@ -67,7 +67,8 @@ export const SectionText = styled.p`
     max-width: 670px;
     font-size: 20px;
     line-height: 32px;
-    padding-bottom: 24px;
+    padding-bottom: 32px;
+    /* background-color: red; */
   }
 
   @media ${(props) => props.theme.breakpoints.sm} {
@@ -222,6 +223,7 @@ export const ButtonFront = styled.button`
 
   &:hover {
     opacity: 0;
+    
   }
   &:focus {
     outline: none;
@@ -232,7 +234,7 @@ export const ButtonFront = styled.button`
   }
 
   &:disabled{
-    background: linear-gradient(270deg, #00DBD8 0%, #B133FF 100%);
+    background: linear-gradient(270deg, #945DD6 0%, #F46737 100%);
     opacity: 0.5;
     box-shadow: inset 0px 2px 1px rgba(46, 49, 55, 0.15), inset 0px 0px 4px rgba(20, 20, 55, 0.3);
   }
@@ -289,4 +291,12 @@ export const LinkIconImg = styled.div`
 export const Emoji = styled.span `
   background-color: none;
   z-index: 100;
+`
+
+
+// 
+
+export const GradientTitle = styled.span `
+  background-color: red;
+
 `

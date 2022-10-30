@@ -137,6 +137,12 @@
   /* border: 1px solid red; */
   margin: 10px 15px;
   padding: 10px 15px;
+  transition: all 0.3 ease-in-out;
+}
+
+.skillContainer:hover{
+  transform: scale(1.2);
+  cursor: pointer;
 }
 
 .skillName {

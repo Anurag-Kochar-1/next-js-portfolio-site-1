@@ -10,8 +10,21 @@ import { Layout } from '../layout/Layout';
 import { Section } from '../styles/GlobalComponents';
 
 import ParticlesBG from "../components/ParticlesBG/ParticlesBG"
+import { useEffect, useState } from 'react';
 
 const Home:React.FC = () => {
+
+
+
+  const [hydrated, setHydrated] = useState<boolean>(false);
+  useEffect(() => {
+    setHydrated(true)
+    console.log(`setHydrated is set to true from index.tsx`);
+    
+  },[])
+
+
+  if(!hydrated) return null
   return (
     <Layout>
 
@@ -23,6 +36,7 @@ const Home:React.FC = () => {
 
 
       </Section>
+      
       <Technologies />
       <Projects />
       {/* <Timeline /> */}

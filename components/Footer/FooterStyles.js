@@ -1,6 +1,7 @@
 import styled from "styled-components"
 
 export const FooterWrapper = styled.section`
+	
 	width: calc(100vw - 96px);
   max-width: 1040px;
   padding: 2rem 48px 40px;
@@ -15,7 +16,7 @@ export const FooterWrapper = styled.section`
 `
 
 export const LinkItem = styled.a`
-	font-size: 18px;
+	font-size: 1.5rem;
 	line-height: 30px;
 	color: rgba(255, 255, 255, 0.75);
 	margin-bottom: 16px;
@@ -29,13 +30,13 @@ export const LinkItem = styled.a`
 	}
 
 	@media ${props => props.theme.breakpoints.md} {
-		font-size: 16px;
+		font-size: 1.8rem;
 		line-height: 28px;
 		display: flex;
 	}
 
 	@media ${props => props.theme.breakpoints.sm} {
-		font-size: 8px;
+		font-size: 1.4rem;
 		line-height: 14px;
 		margin-bottom: 8px;
 		display: flex;
@@ -137,6 +138,7 @@ export const LinkList = styled.ul`
 `
 
 export const LinkColumn = styled.div`
+	/* background: red; */
 	display: flex;
 	flex-direction: column;
 	max-width: 220px;
@@ -144,15 +146,15 @@ export const LinkColumn = styled.div`
 `
 export const LinkTitle = styled.h4`
 	font-style: normal;
-	font-weight: 600;
-	font-size: 12px;
+	font-weight: 700;
+	font-size: 1.8rem;
 	line-height: 24px;
 	text-transform: uppercase;
 	color: rgba(255, 255, 255, 0.4);
 	margin-bottom: 16px;
 
 	@media ${props => props.theme.breakpoints.sm} {
-		font-size: 10px;
+		font-size: 1.5rem;
 		line-height: 12px;
 		margin-bottom: 8px;
 	}

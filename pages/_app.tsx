@@ -11,7 +11,7 @@ function MyApp({ Component, pageProps }: AppProps) {
       <Theme>
         <Head>
           <title> Anurag Kochar </title>
-          <link rel="shortcut icon" href="/images/starfavicon.ico"/>
+          <link rel="shortcut icon" href="/images/pumpkinico.ico"/>
         </Head>
         <Component {...pageProps} />
       </Theme>

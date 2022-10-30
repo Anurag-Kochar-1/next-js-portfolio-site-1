@@ -1,13 +1,13 @@
 import React from 'react'
 import { FC } from 'react';
 
-interface LayoutProps {
-  children: React.ReactNode;
-}
-
 import Footer from '../components/Footer/Footer'
 import Header from '../components/Header/Header'
 import { Container } from './LayoutStyles'
+
+interface LayoutProps {
+  children: React.ReactNode;
+}
 
 export const Layout = ({children}:LayoutProps) => {
   return (

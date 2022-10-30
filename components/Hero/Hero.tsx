@@ -1,15 +1,18 @@
 import React from 'react';
 import Link from "next/link"
 
-import { Emoji, Section, SectionText, SectionTitle } from '../../styles/GlobalComponents';
+import { Emoji, GradientTitle, Section, SectionText, SectionTitle } from '../../styles/GlobalComponents';
 import Button from '../../styles/GlobalComponents/Button';
 import { LeftSection , SubtitleGradientBlueToPink } from './HeroStyles';
+import ParticlesBG from '../ParticlesBG/ParticlesBG';
 
 const Hero:React.FC = () => (
   <Section row nopadding>
+
+    
     <LeftSection>
       <SectionTitle main center>
-        Hi, <br /> I'm Anurag Kochar
+        Hi, <br /> I'm Anurag Kochar 
       </SectionTitle>
 
 

@@ -4,6 +4,8 @@ import { DiCssdeck } from 'react-icons/di';
 
 import { Container, Div1, Div2, Div3, NavLink, SocialIcons, Span } from './HeaderStyles';
 
+import {GiPumpkinMask} from "react-icons/gi"
+
 
 const Header: React.FC = () => {
     return (
@@ -11,7 +13,7 @@ const Header: React.FC = () => {
             <Div1>
                 <Link legacyBehavior href="/">
                     <a style={{ display: 'flex', alignItems: 'center', color: "white" }}>
-                        <DiCssdeck size="3rem" /> <Span> Anurag Kochar </Span>
+                        <GiPumpkinMask size="3rem" /> <Span> Anurag </Span>
                     </a>
                 </Link>
             </Div1>
@@ -35,14 +37,11 @@ const Header: React.FC = () => {
             </Div2>
 
             <Div3>
-                <SocialIcons href="https://github.com">
+                <SocialIcons href="https://github.com/Anurag-Kochar-1">
                     <AiFillGithub size="3rem" />
                 </SocialIcons>
-                <SocialIcons href="https://google.com">
+                <SocialIcons onClick={() => alert("not added yet, kindly check email from footer")}>
                     <AiFillLinkedin size="3rem" />
-                </SocialIcons>
-                <SocialIcons href="https://google.com">
-                    <AiFillInstagram size="3rem" />
                 </SocialIcons>
             </Div3>
 

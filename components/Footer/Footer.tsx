@@ -7,31 +7,33 @@ import { CompanyContainer, FooterWrapper, LinkColumn, LinkItem, LinkList, LinkTi
 const Footer:React.FC = () => {
   return (
     <FooterWrapper id="footer">
+
       <LinkList>
+
         <LinkColumn>
           <LinkTitle>Call</LinkTitle>
-          <LinkItem href="tel:314-343-3432">9988776655</LinkItem>
+          <LinkItem href="tel:xxx-xxx-xxx"> xxx-xxx-xxxx </LinkItem>
         </LinkColumn>
+
         <LinkColumn>
           <LinkTitle>Email</LinkTitle>
-          <LinkItem href="mailto:contact@jsmastery.com">
-            contact@example.com
+          <LinkItem href="mailto:anuragkochar1111@gmail.com">
+            anuragkochar1111@gmail.com
           </LinkItem>
         </LinkColumn>
+
       </LinkList>
+
       <SocialIconsContainer>
         <CompanyContainer>
           <Slogan> Made with love </Slogan>
         </CompanyContainer>
         <SocialContainer>
-          <SocialIcons href="https://google.com">
+          <SocialIcons href="https://github.com/Anurag-Kochar-1">
             <AiFillGithub size="3rem" />
           </SocialIcons>
-          <SocialIcons href="https://google.com">
+          <SocialIcons onClick={() => alert("not added yet, kindly use email")}>
             <AiFillLinkedin size="3rem" />
-          </SocialIcons>
-          <SocialIcons href="https://google.com">
-            <AiFillInstagram size="3rem" />
           </SocialIcons>
         </SocialContainer>
       </SocialIconsContainer>
