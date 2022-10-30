@@ -15,6 +15,7 @@ const Header: React.FC = () => {
                     </a>
                 </Link>
             </Div1>
+
             <Div2>
                 <li>
                     <Link legacyBehavior href="#projects">

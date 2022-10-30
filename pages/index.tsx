@@ -15,16 +15,16 @@ const Home:React.FC = () => {
   return (
     <Layout>
 
-      <ParticlesBG />
       <Section grid>
         <Hero />
 
+        {/* <ParticlesBG /> */}
         {/* <BgAnimation /> */}
 
 
       </Section>
-      <Projects />
       <Technologies />
+      <Projects />
       {/* <Timeline /> */}
       {/* <Acomplishments /> */}
     </Layout>

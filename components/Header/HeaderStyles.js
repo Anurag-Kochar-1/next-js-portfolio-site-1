@@ -20,9 +20,12 @@ export const Container = styled.div`
 
 export const Span = styled.span `
   font-size: 2rem;
+  font-weight: 600;
+  padding: 0 1rem;
 `
 
 export const Div1 = styled.div`
+  /* background-color: red; */
   grid-area: 1 / 1 / 2 / 2;
   display: flex;
   flex-direction: row;
@@ -31,15 +34,19 @@ export const Div1 = styled.div`
     grid-area: 1 / 1 / 2 / 3;
   }
 `;
+
 export const Div2 = styled.div`
   grid-area: 1 / 2 / 2 / 4;
+  /* background-color: red; */
   display: flex;
   justify-content: space-around;
+  align-items: center;
   @media ${(props) => props.theme.breakpoints.sm} {
     grid-area: 2 / 2 / 3 / 5;
   }
 `;
 export const Div3 = styled.div`
+  /* background-color: red;   */
   grid-area: 1 / 5 / 2 / 6;
   display: flex;
   justify-content: space-around;

@@ -4,18 +4,25 @@ import { SiHiveBlockchain } from "react-icons/si"
 import { Section, SectionDivider, SectionText, SectionTitle } from '../../styles/GlobalComponents';
 import { List, ListContainer, ListItem, ListParagraph, ListTitle } from './TechnologiesStyles';
 
+import {skills} from "../../constants/techStack"
+import SkillCard from '../Skills/TechStack/SkillCard';
+
+
 const Technologies:React.FC = () =>  (
   <Section id="tech">
     <SectionDivider />
     <br />
-    <SectionTitle> Technologies </SectionTitle>
+    <SectionTitle> Skills </SectionTitle>
     <SectionText>
-      I've worked with a range of frontend technologies and currently learning backend skills like Node js
+      I've worked with the following technologies.
     </SectionText>
 
     <List>
-      <ListItem> 
+
+      {/* <ListItem> 
+
         <DiReact size='4rem' />  
+
         <br />
         <ListContainer>
           <ListTitle> Frontend-End </ListTitle>
@@ -24,7 +31,12 @@ const Technologies:React.FC = () =>  (
             React.js and Next.js
           </ListParagraph>
         </ListContainer>
-      </ListItem>
+
+      </ListItem> */}
+
+      {skills.map((skill) => (
+        <SkillCard skill={skill} />
+      ))}
 
     </List>
   </Section>

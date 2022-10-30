@@ -28,6 +28,7 @@ export const MainImage = styled.img`
 `
 
 export const List = styled.ul`
+  /* background: darkblue; */
   list-style-type: none;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -44,9 +45,13 @@ export const List = styled.ul`
   }
   
   @media ${props => props.theme.breakpoints.sm}{
+    /* background-color: green; */
     display: flex;
-    flex-direction: column;
-    margin: 32px 0;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0 auto;
   }
 `
 

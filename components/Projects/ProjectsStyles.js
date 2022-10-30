@@ -1,6 +1,7 @@
 import styled from 'styled-components';
 
 export const Img = styled.img`
+border-radius: 15px;
   width:100%;
   height:100%;
   object-fit: cover;
@@ -8,9 +9,11 @@ export const Img = styled.img`
 `
 
 export const GridContainer = styled.section`
+
 display: grid;
 grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
 padding: 3rem;
+
 place-items: center;
 column-gap: 2rem;
 row-gap: 3rem;
@@ -19,11 +22,14 @@ row-gap: 3rem;
   flex-direction: column;
   padding: 2rem;
   padding-bottom: 0;
+  /* background-color: red; */
+  padding-top: 1rem;
+  padding-bottom: 3rem;
 }
 
 `
 export const BlogCard = styled.div`
-  border-radius: 10px;
+  border-radius: 15px;
   box-shadow: 3px 3px 20px rgba(80, 78, 78, 0.5);
   text-align: center;
   width: 400px;
@@ -35,16 +41,16 @@ export const TitleContent = styled.div`
   text-align: center;
   z-index: 20;
   width: 100%;
-  margin: 0.5rem 0;
+  margin: 1rem 0.5rem;
 
 `;
 
 
 export const HeaderThree = styled.h3`
-  font-weight: 500;
+  font-weight: 600;
   letter-spacing: 2px;
   color: #9cc9e3;
-  padding: .5rem 0;
+  padding: 0.5rem 0;
   font-size: ${(props) => props.title ? '3rem' : '2rem'};
 `;
 
@@ -68,12 +74,13 @@ export const Intro = styled.div`
 
 
 export const CardInfo = styled.p`
-  width: 100%;
-  padding: 0 50px;
+  width: 85%;
+  padding: 0 1rem;
+  margin: 0 auto;
   color: #e4e6e7;
   font-style: 2rem;
   line-height: 24px;
-  text-align: justify;
+  text-align: center;
   margin-bottom: 2rem;
   @media ${(props) => props.theme.breakpoints.sm} {
     padding:.3rem
@@ -83,6 +90,7 @@ export const CardInfo = styled.p`
 
 
 export const UtilityList = styled.ul`
+  /* background: red; */
   list-style-type: none;
   padding: 0;
   display: flex;
@@ -91,24 +99,37 @@ export const UtilityList = styled.ul`
 `;
 
 export const ExternalLinks = styled.a`
-color:#d4c0c0;
-font-size: 1.6rem;
+
+color:#fff;
+border-radius: 20px;
+font-size: 1.7rem;
+font-size: 500 ;
 padding:1rem 1.5rem;
-background: #6b3030;
-border-radius: 15px;
+border: 2px solid #FA58B6;
+background: #1A1A40;
 transition: 0.5s;
 &:hover{
-  background: #801414;
+  background: #fff;
+  color: #1A1A40;
 
 }
 `;
 
 export const TagList = styled.ul`
+/* background: red; */
 display: flex;
+flex-wrap: wrap;
 justify-content: space-around;
-padding: 2rem;
+align-items: center;
+padding: 0.5rem;
 `
 export const Tag = styled.li`
-color: #d8bfbf;
-font-size: 1.5rem;
+text-align: center;
+color: #FA58B6;
+background-color: #270082;
+padding: 1rem 3rem;
+border-radius: 20px;
+font-size: 1.7rem;
+font-size: 500 ;
+margin: 1rem 10px;
 `

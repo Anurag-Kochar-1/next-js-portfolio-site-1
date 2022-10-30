@@ -19,10 +19,10 @@ const Projects:React.FC = () => (
               <HeaderThree title> {project.title} </HeaderThree>  
               <Hr />
             </TitleContent>
-            <CardInfo>{project.description}</CardInfo>
+            <CardInfo> {project.description}</CardInfo>
 
             <div>
-              <TitleContent> Stack </TitleContent>
+              {/* <TitleContent> Stack </TitleContent> */}
               <TagList>
                 {project.tags.map((tag , i) => (
                   <Tag key={i}> {tag} </Tag>
@@ -31,8 +31,8 @@ const Projects:React.FC = () => (
             </div>
 
             <UtilityList>
-              <ExternalLinks href={project.visit}> Code </ExternalLinks>
-              <ExternalLinks href={project.source}> Source </ExternalLinks>
+              <ExternalLinks href={project.source}> Source Code </ExternalLinks>
+              <ExternalLinks href={project.visit}> Visit Site </ExternalLinks>
             </UtilityList>
 
 
